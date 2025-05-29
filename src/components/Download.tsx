@@ -47,12 +47,19 @@ export const Download = () => {
         </div>
 
         <div className="space-y-4">
+                  <a
+          href="https://drive.google.com/drive/folders/1PoPrlxEDKXNLm-GXY0m0rid3Dw-zmcUm?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Button 
             size="lg"
             className="bg-gradient-to-r from-red-600 to-red-800 hover:from-red-500 hover:to-red-700 text-white font-bold py-4 px-12 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-red-600/50 border border-red-500"
           >
             DOWNLOAD SURVIVAL PACK
           </Button>
+        </a>
+
           
           <div className="text-gray-400 text-sm">
             Minimum Specs: Windows 10+, 8GB RAM, GTX 1060 or higher

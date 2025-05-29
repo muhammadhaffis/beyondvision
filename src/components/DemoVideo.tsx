@@ -51,11 +51,16 @@ export const DemoVideo = () => {
               {/* Video placeholder with atmospheric styling */}
               <div className="aspect-video bg-gradient-to-b from-gray-900 to-black flex items-center justify-center relative overflow-hidden">
                 {/* Placeholder content */}
-                <div className="text-center z-20 relative">
-                  <div className="w-20 h-20 border-4 border-green-500 border-t-transparent rounded-full animate-spin mb-4 mx-auto"></div>
-                  <p className="text-green-400 text-lg font-bold mb-2 font-mono">STORY FEED LOADING...</p>
-                  <p className="text-gray-400 text-sm">LIVE FOOTAGE FROM BANDIT ENCOUNTER</p>
-                </div>
+                {/* Actual video */}
+                  <video 
+                    src="/screenshots/Scene_1.mp4" 
+                    controls 
+                    autoPlay 
+                    className="w-full h-full object-cover z-20 relative"
+                  >
+                    Your browser does not support the video tag.
+                  </video>
+
                 
                 {/* Background atmospheric effects */}
                 <div className="absolute inset-0">
@@ -92,9 +97,16 @@ export const DemoVideo = () => {
           <p className="text-gray-400 mb-6 max-w-2xl mx-auto">
             Every move reshapes the story. Are you ready to survive against diverse enemies zombie or human bandit?
           </p>
+                  <a
+          href="watch full trailer"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className="bg-gradient-to-r from-green-600 to-green-800 hover:from-green-500 hover:to-green-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-green-600/50 border border-green-500">
             WATCH FULL TRAILER
           </button>
+        </a>
+
         </div>
       </div>
     </section>

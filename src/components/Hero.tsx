@@ -126,15 +126,26 @@ export const Hero = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                  <a
+          href="https://drive.google.com/drive/folders/1PoPrlxEDKXNLm-GXY0m0rid3Dw-zmcUm?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Button 
             size="lg" 
             className="bg-gradient-to-r from-red-700 to-red-900 hover:from-red-600 hover:to-red-800 text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-2xl shadow-red-600/60 border border-red-500 animate-pulse hover:animate-none hover:shadow-red-600/80"
             style={{ animationDuration: '1.5s' }}
           >
             <Play className="mr-2" size={20} />
-             BEGIN YOUR STORY
+            BEGIN YOUR STORY
           </Button>
+        </a>
+
           
+                <a
+                href="https://drive.google.com/drive/folders/1PoPrlxEDKXNLm-GXY0m0rid3Dw-zmcUm?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer" >
           <Button 
             variant="outline" 
             size="lg"
@@ -143,6 +154,7 @@ export const Hero = () => {
             <Download className="mr-2" size={20} />
             DOWNLOAD NOW
           </Button>
+        </a>
         </div>
 
         {/* Enhanced survivor stats with more ominous data and heartbeat effect */}
